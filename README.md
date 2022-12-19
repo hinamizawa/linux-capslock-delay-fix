@@ -1,0 +1,1 @@
+# linux-capslock-delay-fix
