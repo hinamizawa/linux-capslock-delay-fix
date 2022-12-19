@@ -40,7 +40,7 @@ xkb_symbols "ctrl_modifier" {
 ```
 - Restore default privilegies: `sudo chmod 644 capslock`
 
-## Some changing in Gnome Tweaks
+## Some changes in Gnome Tweaks
 
 - Go to **Keyboard and Mouse** > **Additional Layout Options** > **Caps Lock behavior**
 - Change **Disabled** to **Make Caps Lock an Additional Ctrl**
