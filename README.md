@@ -38,7 +38,7 @@ xkb_symbols "ctrl_modifier" {
           };
 };
 ```
-- Restore default privilegies: `sudo chmod 644 capslock`
+- `sudo chmod 644 capslock`
 
 ## Some changes in Gnome Tweaks
 
