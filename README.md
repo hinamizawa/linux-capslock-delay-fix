@@ -2,7 +2,7 @@
 
 *Obs: For Wayland and Xorg - Tested only in Ubuntu 22.04 - Credits to AssGoblin69*  
 
-- cd to `/usr/share/X11/xkb/symbols/`
+- `cd /usr/share/X11/xkb/symbols/`
 - `sudo chmod 777 capslock`
 
 ## Replace
