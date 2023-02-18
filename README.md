@@ -29,12 +29,12 @@ For this
 // but it will still produce the Caps_Lock keysym.
 hidden partial modifier_keys
 xkb_symbols "ctrl_modifier" {
-      key <CAPS> {
-          type="ALPHABETIC",
-          repeat=No,
-          symbols[Group1] = [ Caps_Lock, Caps_Lock ],
-          actions[Group1] = [ LockMods(modifiers=Lock), LockMods(modifiers=Shift+Lock,affect=unlock) ]
-      };
+    key <CAPS> {
+        type="ALPHABETIC",
+        repeat=No,
+        symbols[Group1] = [ Caps_Lock, Caps_Lock ],
+        actions[Group1] = [ LockMods(modifiers=Lock), LockMods(modifiers=Shift+Lock,affect=unlock) ]
+    };
 };
 ```
 - `sudo chmod 644 capslock`
